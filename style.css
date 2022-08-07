@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: black;
+}
+
+.game-board{
+    width: 900px;
+    height: 500px;
+    border-bottom: 20px solid green;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: -100;
+    background-image: url("imagem/konoha.jfif");
+    background-repeat: repeat-y;
+    background-size: 100% ;
+    background-color: black;
+
+}
+.kono{
+    position: relative;
+    z-index: -100;
+}
+
+.nuvem1{
+    position: absolute;
+    width: 300px;
+    animation:  nuvem1-animation 20s infinite linear;
+    z-index: 100;
+    
+}
+
+.nuvem2{
+    position: absolute;
+    width: 250px;
+    animation:  nuvem2-animation 30s infinite linear;
+    z-index: 100;
+}
+.nuvem3{
+    position: absolute;
+    width: 150px;
+    animation: nuvem3-animation 15s infinite linear;
+}
+.adag{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: adag 8000ms infinite linear;
+}
+
+.adag1{
+    position: absolute;
+    bottom: 20px;
+    width: 40px;
+    animation: adag1 2000ms infinite linear;
+}
+
+.narco1{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: -50px;
+}
+
+.test{
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    bottom: -08px;
+    width: 65px;
+    height: auto ;
+    animation: test 9s infinite linear;
+}
+ 
+.sas{
+    visibility: hidden;
+    animation:sas 9s infinite linear;
+}
+ 
+.jump{
+    animation: jump 600ms ease-out;
+}
+@keyframes jump{
+    0%{ left: 30px;
+        bottom: 0;
+    }
+    40%{
+        left: 30px;
+        bottom: 110px;
+    }
+    50%{
+        left: 40px;
+        bottom: 120px;
+    }
+    60%{ left: 40px;
+        bottom: 100px;
+    }
+    70%{ left: 30px;
+        bottom: 80px;
+    }
+
+    80%{ left: 25px;
+        bottom: 65px;
+    }
+
+    90%{left: 15px;
+        bottom: 40px;
+    }
+    100%{left: 0px;
+        bottom: 0;
+    }
+}
+
+@keyframes sas {
+    from{ z-index: 1;
+        background: 100%;
+    }
+
+    to{ z-index: 1;
+        background: 100%;
+    }
+    
+}
+
+@keyframes test {
+
+    0%{ 
+        
+        right: -10px;
+    }
+
+    30% {
+        
+        right:100px;
+    }
+
+    60%{ 
+        
+        right: -100px;
+    }
+
+    80% {
+        
+        right:100px;
+    }
+     
+    100% {
+        
+        right:-10px;
+    }
+    
+}
+
+@keyframes adag{
+    from{
+        right: -4100px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes adag1{
+    from{
+        transform: rotate(1100deg);
+        transform-origin: left top 0;
+        right: -990px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes  nuvem1-animation{
+    from{
+        right: -300px;
+    }
+
+    to{
+        right: 100%
+    }
+}
+
+@keyframes  nuvem2-animation{
+    from{
+        right: 250px;
+    }
+
+    to{
+        right: 100%
+    }
+}
+
+@keyframes  nuvem3-animation{
+    from{
+        right: 150px;
+    }
+
+    to{
+        right: 100%
+    }
+}
