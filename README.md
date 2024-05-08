@@ -1,4 +1,4 @@
 # naruto-game #javascript
 jogo de corrida infinita do Naruto usando javascript
-![narutoga](https://user-images.githubusercontent.com/93497276/183315981-0523c01c-dcfb-4809-9d02-444bcdd6565a.png)
 
+![jogo naruto](https://github.com/Saraiva97/naruto-game/assets/93497276/2fd586dc-b814-4f9a-ad7e-ed0d06a8c2ee)
