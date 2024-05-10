@@ -7,7 +7,7 @@
 <br>
 
 <div align="center">
-<img src="https://github.com/Saraiva97/naruto-game/assets/93497276/2fd586dc-b814-4f9a-ad7e-ed0d06a8c2ee" style="width: 300px"/>
+<img src="https://github.com/Saraiva97/naruto-game/assets/93497276/2fd586dc-b814-4f9a-ad7e-ed0d06a8c2ee" style="width: 400px"/>
 </div>
 
 **Como Funciona:**
